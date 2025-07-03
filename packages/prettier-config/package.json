@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "@monorepo/prettier-config",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf .turbo && rm -rf node_modules"
+  },
+  "exports": "./index.js",
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  }
+}

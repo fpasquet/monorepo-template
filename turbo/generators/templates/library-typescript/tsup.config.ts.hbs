@@ -1,0 +1,29 @@
+import { defineConfig } from 'tsup';
+
+import pkg from './package.json';
+
+export default defineConfig({
+  entry: ['src/index.ts'],
+  format: ['cjs', 'esm'],
+  dts: true,
+  splitting: false,
+  sourcemap: true,
+  clean: true,
+  minify: false,
+  target: 'es2022',
+  outDir: 'dist',
+  external: [
+    // Add external dependencies to exclude from the bundle here
+  ],
+  banner: {
+    js: `/**
+ * ${pkg.name}
+ * ${pkg.description}
+ *
+ * @version ${pkg.version}
+ */`,
+  },
+  esbuildOptions(options) {
+    options.conditions = ['module'];
+  },
+});
