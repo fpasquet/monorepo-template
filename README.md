@@ -78,8 +78,14 @@ Follow the prompts to generate a new library in the `packages/` directory.
 - [`@monorepo/eslint-config`](./packages/eslint-config):  
   Shared, extensible ESLint configuration for JavaScript/TypeScript/React/Next.js.
 
-- [`@monorepo/prettier-config`](./packages/prettier-config):  
+- [`@monorepo/prettier-config`](./packages/prettier-config):
   Opinionated Prettier configuration.
+
+## Infrastructure
+
+Terraform files live in the [`infra`](./infra) directory. Copy
+`terraform.tfvars.example` to `terraform.tfvars`, update the values, then run
+`terraform init` followed by `terraform apply` to provision AWS resources.
 
 ## Configuration Files
 
