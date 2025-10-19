@@ -1,0 +1,10 @@
+@import "@monorepo/ui/global.css";
+@import "tailwindcss";
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  min-height: 100vh;
+}
