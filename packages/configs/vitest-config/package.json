@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "@monorepo/vitest-config",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf .turbo && rm -rf node_modules"
+  },
+  "exports": "./index.js",
+  "peerDependencies": {
+    "vitest": "^3.2.4"
+  }
+}

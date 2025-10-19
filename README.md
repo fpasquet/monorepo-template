@@ -27,6 +27,8 @@ This project provides a template to bootstrap a modern TypeScript monorepo using
 │   │   ├── eslint-config/     # Shared ESLint config package
 │   │   ├── prettier-config/   # Shared Prettier config package
 │   │   └── typescript-config/ # Shared TypeScript config package
+│   │   └── vitest-config/     # Shared Vitest config package
+│   └── ui/          # Shared UI package
 ├── turbo/                 # Custom generators (Plop, etc.)
 ├── pnpm-workspace.yaml    # Workspace configuration for pnpm
 ├── turbo.json             # Turborepo pipeline configuration
@@ -80,17 +82,20 @@ Follow the prompts to generate a new library in the `packages/` directory.
   Shared, extensible ESLint configuration for JavaScript/TypeScript/React/Next.js.
 
 - [`@monorepo/prettier-config`](./packages/prettier-config):  
-  Opinionated Prettier configuration.
+  Shared, extensible Prettier configuration.
+
+- [`@monorepo/typescript-config`](./packages/typescript-config):  
+  Shared, extensible TypeScript configuration.
+
+- [`@monorepo/vitest-config`](./packages/vitest-config):
+  Shared, extensible Vitest configuration.
 
 ## Configuration Files
 
 - `.commitlintrc.mjs` - Conventional commit rules
-- `.prettierrc.mjs` - Prettier configuration
-- `lint-staged.config.mjs` - Lint-staged setup
 
 ## Roadmap
 
-- [ ] Add shared Vitest configuration
 - [ ] Expand generators for different project types
 - [ ] Improve documentation and usage examples
 
