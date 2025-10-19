@@ -5,6 +5,9 @@
     "clean": {
       "cache": false
     },
+    "format": {
+      "dependsOn": ["^format"]
+    },
     "lint": {
       "dependsOn": ["^lint"]
     },

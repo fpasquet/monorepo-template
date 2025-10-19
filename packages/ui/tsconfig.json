@@ -1,0 +1,13 @@
+{
+  "extends": "@monorepo/typescript-config/react.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "paths": {
+      "@monorepo/ui/components/*": ["./src/components/*"],
+      "@monorepo/ui/hooks/*": ["./src/hooks/*"],
+      "@monorepo/ui/utils": ["./src/utils"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

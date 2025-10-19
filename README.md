@@ -23,9 +23,10 @@ This project provides a template to bootstrap a modern TypeScript monorepo using
 /
 ├── apps/                  # Application projects (optional)
 ├── packages/
-│   ├── eslint-config/     # Shared ESLint config package
-│   └── prettier-config/   # Shared Prettier config package
-│   └── typescript-config/ # Shared TypeScript config package
+│   ├── configs/     # Shared configs package
+│   │   ├── eslint-config/     # Shared ESLint config package
+│   │   ├── prettier-config/   # Shared Prettier config package
+│   │   └── typescript-config/ # Shared TypeScript config package
 ├── turbo/                 # Custom generators (Plop, etc.)
 ├── pnpm-workspace.yaml    # Workspace configuration for pnpm
 ├── turbo.json             # Turborepo pipeline configuration
