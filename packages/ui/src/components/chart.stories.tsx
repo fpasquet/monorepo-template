@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unsafe-return, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-return */
 import type { ChartConfig } from '@monorepo/ui/components/chart';
-import type { Meta, StoryObj } from '@storybook/nextjs';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from '@monorepo/ui/components/chart';
 import { useMemo } from 'react';

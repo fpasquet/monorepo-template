@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import { Label } from '@monorepo/ui/components/label';
 import { RadioGroup, RadioGroupItem } from '@monorepo/ui/components/radio-group';

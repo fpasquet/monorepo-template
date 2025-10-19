@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@monorepo/ui/components/tooltip';
 import { Plus } from 'lucide-react';

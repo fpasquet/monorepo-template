@@ -51,5 +51,8 @@ jobs:
       - name: Turbo type-check
         run: pnpm turbo run type-check --cache-dir=.turbo
 
+      - name: Install Playwright before tests
+        run: npx playwright install --with-deps
+
       - name: Turbo test
         run: pnpm turbo run test --cache-dir=.turbo

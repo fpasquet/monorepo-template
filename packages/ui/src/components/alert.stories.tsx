@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import { Alert, AlertDescription, AlertTitle } from '@monorepo/ui/components/alert';
 import { AlertCircle } from 'lucide-react';

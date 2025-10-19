@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import { HoverCard, HoverCardContent, HoverCardTrigger } from '@monorepo/ui/components/hover-card';
 import { expect, userEvent, waitFor, within } from 'storybook/test';

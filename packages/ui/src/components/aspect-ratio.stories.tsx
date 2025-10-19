@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import { AspectRatio } from '@monorepo/ui/components/aspect-ratio';
 import Image from 'next/image';

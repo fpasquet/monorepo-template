@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import { Popover, PopoverContent, PopoverTrigger } from '@monorepo/ui/components/popover';
 import { expect, userEvent, within } from 'storybook/test';

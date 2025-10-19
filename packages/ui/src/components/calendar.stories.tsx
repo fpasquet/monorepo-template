@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import { Calendar } from '@monorepo/ui/components/calendar';
 import { addDays } from 'date-fns';

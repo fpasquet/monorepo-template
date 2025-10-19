@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import { Checkbox } from '@monorepo/ui/components/checkbox';
 import { Label } from '@monorepo/ui/components/label';

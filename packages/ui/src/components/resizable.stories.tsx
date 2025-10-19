@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from '@monorepo/ui/components/resizable';
 import { fn } from 'storybook/test';

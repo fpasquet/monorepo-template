@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@monorepo/ui/components/collapsible';
 import { Info } from 'lucide-react';

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@monorepo/ui/components/tabs';
 import { expect, userEvent, waitFor } from 'storybook/test';

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/nextjs';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
 import { Toggle } from '@monorepo/ui/components/toggle';
 import { Bold, Italic } from 'lucide-react';

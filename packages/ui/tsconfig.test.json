@@ -1,0 +1,9 @@
+{
+  "extends": "@monorepo/typescript-config/base.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": ["node"]
+  },
+  "include": ["vitest.config.ts"]
+}
